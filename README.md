@@ -1,15 +1,14 @@
-
 <html lang="es">
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="TP integrador bootstrap">
+    <meta name="description" content="Ejercicio integrador bootstrap">
     <title>CaC 2022 - Ejercicio integrador Bootstrap</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <style>
-    #top-banner{height: 785px;background-position: center center;background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url("img/hawaii.jpg");}
+    #top-banner{height: 785px;background-position: center center;background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('./IMG/hawaii.jpg');}
     footer{background-image: linear-gradient(to right, rgb(28,54,67) , rgb(30,83,114));}
     footer li{max-width: 110px;}
     .fs-7{font-size:0.9rem!important}
@@ -27,7 +26,7 @@
         <nav class="navbar navbar-dark bg-dark shadow-sm">
             <div class="container-fluid px-5">
                 <a href="#" class="navbar-brand d-flex align-items-center ms-5">
-                    <img src="img/codoacodo.png" width="110">
+                    <img src="./IMG/codoacodo.png" width="110">
                     <strong>Conf Bs As</strong>
                 </a>
                 <ul class="nav me-5">
@@ -73,7 +72,7 @@
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 gx-5">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="img/steve.jpg" class="rounded-top">
+                            <img src="./IMG/steve.jpg" class="rounded-top">
                             <div class="card-body">
                                 <span class="badge text-bg-warning">Javascript</span> <span class="badge text-bg-primary">React</span>
                                 <h5>Steve Jobs</h5>
@@ -87,7 +86,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="img/bill.jpg" class="rounded-top">
+                            <img src="./IMG/bill.jpg" class="rounded-top">
                             <div class="card-body">
                                 <span class="badge text-bg-warning">Javascript</span> <span class="badge text-bg-primary">React</span>
                                 <h5>Bill Gates</h5>
@@ -101,7 +100,7 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="img/ada.jpeg" class="rounded-top">
+                            <img src="./IMG/ada.jpeg" class="rounded-top">
                             <div class="card-body">
                                 <span class="badge text-bg-secondary">Negocios</span> <span class="badge text-bg-danger">Startups</span>
                                 <h5>Ada Lovelace</h5>
@@ -118,11 +117,11 @@
         <section class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 m-0 p-0">
-                    <img src="img/honolulu.jpg" width="100%">
+                    <img src="./IMG/honolulu.jpg" width="100%">
                 </div>
                 <div class="col-lg-6 col-md-6 bg-secondary text-white border-start border-light">
                     <div class="p-3">
-                        <h3>Bs As - Octubre</h3>
+                        <h3>Bs As - Ocutubre</h3>
                         <p>
                             Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los
                             Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses.
@@ -150,7 +149,7 @@
                               <div class="col px-0 mx-0 pe-3">
                                 <input type="text" class="form-control" placeholder="Nombre" name="name">
                               </div>
-                              <div class="col px-0 mx-0 ps-3">
+                              <div classgu="col px-0 mx-0 ps-3">
                                 <input type="text" class="form-control" placeholder="Apellido" name="lastname">
                               </div>
                             </div>
@@ -189,4 +188,5 @@
 
 
 </body>
+
 </html>
